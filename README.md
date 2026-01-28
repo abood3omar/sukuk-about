@@ -96,5 +96,5 @@ To view the underlying code structure or discuss the implementation details:
 
 * **Abdalrhman Hamed**
 * **Role:** Backend Software Engineer
-* **LinkedIn:** [Your Profile Link]
-* **Email:** [Your Email]
+* **LinkedIn:** [www.linkedin.com/in/abdalrhman-hamed-5b929725b]
+* **Email:** [mailto:omarabdalrhman53@gmail.com]
