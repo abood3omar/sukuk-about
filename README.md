@@ -71,6 +71,19 @@ The system handles complex user statuses beyond simple Login/Logout. I implement
 
 ---
 
+## 🗄️ Database Architecture (Preview)
+To ensure data integrity and complex relation handling, I designed a **Normalized Relational Schema**. The diagram below highlights the core relationships between *Users*, *Investment Portfolios*, and *Sukuk Assets*....
+
+<div align="center">
+  <img src="images/erd.png" alt="Database ER Diagram" width="800"/>
+</div>
+
+**Key Design Highlights:**
+* **Polymorphic Relations:** Used for handling attachments and media across different entities without table duplication.
+* **Many-to-Many:** implemented for `Users <-> Roles` and `Investors <-> Sukuk` assignments.
+* **Foreign Key Constraints:** Strict constraint enforcement to prevent orphaned records in financial transactions.
+
+---
 ## 🚀 Key Achievements
 * **Secure API Design:** Built internal APIs for `SearchResultController` to handle property searching with complex filters securely.
 * **Code Reusability:** Used **Traits** and **Service Classes** to handle the `Import/Export` logic across different modules (Sukuk, Evaluations).
